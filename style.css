@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(235, 245, 255); 
+    font-family: 'Merriweather', serif;
+}
+
+/* Título */
+h1 {
+    color: rgb(0, 108, 162);
+    text-align: center;
+    background-color: rgb(175, 215, 251);
+    font-size: 40px;
+    text-shadow: 1px 1px black;
+    padding: 20px;
+    margin: 30px;
+}
+
+/* Agrupamento */
+header, header p {
+    text-align: center;
+}
+
+h2, h3 {
+    color: rgb(0, 108, 162);
+    text-align: left;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* Box Model */
+#boxbackground {
+    background-color: #ffffff;
+}
+
+.section-box {
+    width: 90%;
+    margin: 15px auto;
+    padding: 2%;
+    border-style: solid;
+    border-color: rgb(175, 175, 255);
+    border-width: 2px;
+}
+
+
+/* Parágrafos */
+p {
+    text-align: justify;
+    margin: 15px;
+}
+
+/* Lista não ordenada */
+ul {
+    list-style-type: square;
+    background-color: rgb(175, 215, 251);
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Lista ordenada */
+ol {
+    list-style-type: decimal;
+    background-color: rgb(175, 215, 251);
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Imagem */
+img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Links */
+a {
+    color: rgb(0, 108, 162);
+    text-decoration-line: none; 
+}
+
+a:hover {
+    color: rgb(136, 0, 255);
+    text-decoration-line: underline;
+}
