@@ -6,21 +6,17 @@
 header{
     position: sticky;
     top: 0;
-<<<<<<< HEAD
-    background-color: red;
-=======
-    background-color: orange;
->>>>>>> 89be4f7e62ed19bb4ee044a92a2cd12ed4a1cf85
+    background-color: rgb(197, 42, 42);
     justify-content: center;
     align-items: center;
     padding: 20px;
+    color: white;
 
 }
 
 body{
-    background-color: #f0f0f0;
+    background-color: #fffbf3;
 
-<<<<<<< HEAD
 }
 ul{
     list-style: none;
@@ -32,12 +28,13 @@ ul{
 }
 
 footer{
-    background-color: red;
+    background-color: rgb(197, 42, 42);
     justify-content: center;
     align-items: center;
     padding: 20px;
     position: static;
     bottom: 0;
+    color: white;
 }
 
 .cards-container{
@@ -52,6 +49,4 @@ footer{
 .img{
     width: 400px;
     
-=======
->>>>>>> 89be4f7e62ed19bb4ee044a92a2cd12ed4a1cf85
 }
