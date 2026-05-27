@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+body{
+    background-color: #f0f0f0;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer{
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+}
+
+.cards-container{
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.img{
+    width: 400px;
+    
+}
