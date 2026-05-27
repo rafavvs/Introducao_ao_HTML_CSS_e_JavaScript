@@ -6,7 +6,11 @@
 header{
     position: sticky;
     top: 0;
+<<<<<<< HEAD
     background-color: red;
+=======
+    background-color: orange;
+>>>>>>> 89be4f7e62ed19bb4ee044a92a2cd12ed4a1cf85
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -16,6 +20,7 @@ header{
 body{
     background-color: #f0f0f0;
 
+<<<<<<< HEAD
 }
 ul{
     list-style: none;
@@ -47,4 +52,6 @@ footer{
 .img{
     width: 400px;
     
+=======
+>>>>>>> 89be4f7e62ed19bb4ee044a92a2cd12ed4a1cf85
 }
