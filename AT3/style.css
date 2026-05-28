@@ -2,51 +2,151 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Merriweather, sans-serif;
 }
-header{
-    position: sticky;
-    top: 0;
+
+header {
     background-color: rgb(197, 42, 42);
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 40px;
     color: white;
-
 }
 
-body{
+body {
     background-color: #fffbf3;
-
 }
-ul{
-    list-style: none;
+
+nav ul {
+    list-style-type: none;
     display: flex;
-    gap: 5px;
-    justify-content: space-around;
-    align-items: center;
-    
+    gap: 15px;
 }
 
-footer{
-    background-color: rgb(197, 42, 42);
+.botao-menu {
+    background-color: white;
+    color: rgb(197, 42, 42);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: default; /* Remove o indicador de clique */
+}
+
+.botao-menu:hover {
+    background-color: #ffde59;
+    color: black;
+}
+
+.inicio {
+    background-image: url('https://blog.colombo.com.br/wp-content/uploads/2017/07/iStock-1248754918.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    position: static;
-    bottom: 0;
+    text-align: center;
+}
+
+.inicio-conteudo {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
     color: white;
 }
 
-.cards-container{
-    margin: 30px;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+.inicio-conteudo h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
 }
 
-.img{
-    width: 400px;
-    
+.botao {
+    display: inline-block;
+    background-color: #ffde59;
+    color: black;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: default; /* Remove o indicador de clique */
+    transition: all 0.2s ease-in-out;
+}
+
+.botao:hover {
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.08); /* Aumenta o tamanho em 8% */
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.card1, .card2, .card3 {
+    background-color: white;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-conteudo {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-conteudo h3 {
+    color: rgb(197, 42, 42);
+    margin-bottom: 10px;
+}
+
+.card-conteudo p {
+    margin-bottom: 20px;
+    color: #555;
+    flex-grow: 1;
+}
+
+.botao-card {
+    background-color: rgb(197, 42, 42);
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: default; /* Remove o indicador de clique */
+}
+
+footer {
+    background-color: rgb(197, 42, 42);
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
